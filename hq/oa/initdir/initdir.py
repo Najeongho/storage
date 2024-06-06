@@ -56,8 +56,8 @@ def copy_files_to_directories(source_dir, destination_root_dir):
                         print(f"Copied 60 files to {depth5_dir}")
 
 # Set the source and destination directories
-source_dir = r"C:\path\to\source\directory"
-destination_root_dir = r"Z:\testimagedata"
+source_dir = r"C:\test"
+destination_root_dir = r"\\172.16.20.204\testimagedata"
 
 # Call the function to copy files
 copy_files_to_directories(source_dir, destination_root_dir)
