@@ -1,0 +1,82 @@
+{
+    "aces": [
+        {
+            "flags": [
+                "OBJECT_INHERIT",
+                "CONTAINER_INHERIT"
+            ],
+            "rights": [
+                "READ",
+                "READ_EA",
+                "READ_ATTR",
+                "READ_ACL",
+                "WRITE_EA",
+                "WRITE_ATTR",
+                "EXECUTE",
+                "MODIFY",
+                "EXTEND",
+                "SYNCHRONIZE"       
+            ],
+            "trustee": {
+                "auth_id": "1006",
+                "domain": "LOCAL",
+                "gid": null,
+                "name": "imageadmin",
+                "sid": "S-1-5-21-3463746339-3891984638-1457714267-1006",
+                "uid": null
+            },
+            "type": "ALLOWED"
+        },
+        {
+            "flags": [],
+            "rights": [
+                "READ",
+                "READ_EA",
+                "READ_ATTR",
+                "READ_ACL",
+                "EXECUTE",
+                "SYNCHRONIZE"
+            ],
+            "trustee": {
+                "auth_id": "513",
+                "domain": "LOCAL",
+                "gid": null,
+                "name": "Users",
+                "sid": "S-1-5-21-3463746339-3891984638-1457714267-513",
+                "uid": null
+            },
+            "type": "ALLOWED"
+        },
+        {
+            "flags": [
+                "OBJECT_INHERIT",
+                "CONTAINER_INHERIT"
+            ],
+            "rights": [
+                "READ",
+                "READ_EA",
+                "READ_ATTR",
+                "READ_ACL",
+                "WRITE_EA",
+                "WRITE_ATTR",
+                "EXECUTE",
+                "MODIFY",
+                "EXTEND",
+                "SYNCHRONIZE"       
+            ],
+            "trustee": {
+                "auth_id": "1007",
+                "domain": "LOCAL",
+                "gid": null,
+                "name": "imagetester",
+                "sid": "S-1-5-21-3463746339-3891984638-1457714267-1007",
+                "uid": null
+            },
+            "type": "ALLOWED"
+        }
+    ],
+    "control": [
+        "PRESENT"
+    ],
+    "posix_special_permissions": []
+}
